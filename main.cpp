@@ -7,10 +7,13 @@
 #include "importwindow.h"
 #include "sqlwindow.h"
 #include <QDebug>
+#include <iostream>
+using namespace std;
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
     MainWindow w;
     w.show();
+    cout<<"aaa"<<endl;
     return a.exec();
 }
